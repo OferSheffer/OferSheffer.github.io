@@ -2,3 +2,8 @@
 body    {background-color:#FAFAFA;}
 h1      {color:darkblue;}
 h3      {color:darkblue;}
+
+.list_icon {
+    width:16px;
+    height:16px;
+}
