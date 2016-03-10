@@ -1,9 +1,48 @@
+body    {background-color:#F6F6F6; font-size: 62.5%}
+h1      {color:darkblue; font-size: 2.6em;}
+h3      {color:darkblue; font-size: 1.6em; margin: 0px;}
 
-body    {background-color:#FAFAFA;}
-h1      {color:darkblue;}
-h3      {color:darkblue;}
+header {
+
+}
+footer,section,article {
+    font-size: 1.6em; border:1px solid grey;margin:5px;margin-bottom:10px;padding:8px;background-color:white;
+}
+footer {
+    color:white;background-color:#444;margin-bottom: 10px auto;
+}
+section {
+    background-color:#ddd;
+}
+nav ul  {
+    margin:0;padding:8px;
+}
+nav ul li {
+    margin:5px;
+}
+
 
 .list_icon {
     width:16px;
     height:16px;
+    padding:0 5px 0 0;
+}
+
+.links_container {
+    margin: 5;
+    padding: 5;
+}
+
+li.link_item a {
+    display: block;
+    width: 60px;
+}
+.siteicon {
+    display: flex;
+    width:32px;
+    height:32px;
+}
+
+div.myform {
+    padding: 20px;
 }
