@@ -7,51 +7,40 @@
         <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="styles.css">
         <link rel="icon" href="https://raw.githubusercontent.com/OferSheffer/OferSheffer.github.io/master/favicon.ico" type="image/x-icon">
-    
-    <script src="/js/demo_workers.js"></script>
-    <script>
-    function drag(ev) {
-        ev.dataTransfer.setData("text", ev.target.id);
-    }
-    
-    </script>
     </head>
-    
+
     <body>
-    
+
         <header>
             <h1>Github Testing Ground OS
                 <hr/>
             </h1>
         </header>
-        
+
         <p>This was my second paragraph!</p>
-        
+
         <section class="links_container">
-            <a href="https://github.com/OferSheffer" title="My Github">
-              <img class="list_icon" src="http://github.com/favicon.ico"
-                alt="github.com">
+            <div class="siteicon">
+                <a href="https://github.com/OferSheffer" title="My Github">
+                  <img class="list_icon" src="http://github.com/favicon.ico" alt="github.com">
                 </a>
-            <a href="http://www.w3schools.com" title="Web for beginners">
-              <img class="list_icon"
-                src="http://www.w3schools.com/favicon.ico"
-                alt="W3Schools.com">
-            </a>
-            <a href="http://learnlayout.com/" title="Learn CSS Layout">
-              <img class="list_icon"
-                src="http://learnlayout.com/images/logo.png"
-                alt="learnlayout.com">
-            </a>
-            <a href="http://github.com/OferSheffer/Review_Stanford_Algorithms"
-               title="OS Github repository for Tim Roughgarden's class">
-              <img class="list_icon"
-                src="http://www.gostanford.com/fls/30600/site_graphics/FAVICON.PNG"
-                alt="stanford.edu">
-            </a>
+            </div>
+            <div class="siteicon">
+                <a href="http://www.w3schools.com" title="Web for beginners">
+                  <img class="list_icon" src="http://www.w3schools.com/favicon.ico" alt="W3Schools.com" style="padding:0 5px 0 0;">
+                </a>
+            </div>
+            <div class="siteicon">
+                <a href="http://github.com/OferSheffer/Review_Stanford_Algorithms"
+                   title="OS Github repository for Tim Roughgarden's class">
+                <img class="list_icon" src="http://www.gostanford.com/fls/30600/site_graphics/FAVICON.PNG" alt="stanford.edu"
+                     style="padding:0 5px 0 0;">
+                </a>
+            </div>
         </section>
-        
+
         <section>
         <h3>Links</h3>
         <nav>
@@ -67,15 +56,10 @@
                     <img class="list_icon" src="http://www.w3schools.com/favicon.ico" alt="W3Schools.com" style="padding:0 5px 0 0;">
                     <a href="http://www.w3schools.com" title="Web for beginners">w3schools.com</a>
                 <ul>
+                    <li><a href="http://www.w3schools.com/html/default.asp">HTML Tutorial</a></li>
                     <li><a href="http://www.w3schools.com/css/default.asp">CSS Tutorial</a></li>
                     <li><a href="http://www.w3schools.com/js/default.asp">JavaScript Tutorial</a></li>
                 </ul>
-                </div>
-            </li>
-            <li>
-                <div class="list_item">
-                    <img class="list_icon" src="http://learnlayout.com/images/logo.png" alt="learnlayout.com">
-                    <a href="http://learnlayout.com/" title="Learn CSS Layout">Learn CSS Layout</a>
                 </div>
             </li>
             <li>
@@ -90,12 +74,7 @@
             </ul>
         </nav>
         </section>
-        <section>
-        Embedded Lab 3. Draw into LCD and use shift features:<br>
-        <iframe src="https://drive.google.com/file/d/0B_lE8VTBhIM6VWtzTXpjbVVHaHc/preview" width="320" height="180">Embedded Lab 3. Draw into LCD and use shift features.</iframe>
-        
-        </section>
-        
+
         <br><hr>
         <div class="myform">
             <form action="" target=" _blank" method="get">
@@ -103,18 +82,13 @@
                 <input type="text" name="username" placeholder="Name" maxlength="15" autocomplete>
                 <!-- <input type="text" name="username" placeholder="First name" maxlength="15" autofocus> -->
                 <input type="submit" value="Submit">
-            </form> 
+            </form>
         </div>
-        
-        <section>
-        <p>Count numbers: <output id="result"></output></p>
-        <button onclick="startWorker()">Start Worker</button> 
-        <button onclick="stopWorker()">Stop Worker</button>
-        </section>
-        
+
+
         <footer>
             <address>&copy; Written by OS.<br></address>
         </footer>
-    
+
     </body>
 </html>
