@@ -9,27 +9,27 @@
         <![endif]-->
         <link rel="stylesheet" href="/css/styles.css">
         <link rel="icon" href="https://raw.githubusercontent.com/OferSheffer/OferSheffer.github.io/master/favicon.ico" type="image/x-icon">
-    
+
     <script src="/js/demo_workers.js"></script>
     <script>
     function drag(ev) {
         ev.dataTransfer.setData("text", ev.target.id);
     }
-    
+
     </script>
     </head>
-    
+
     <body>
-    
+
         <header>
             <h1>Github Testing Ground OS
                 <hr/>
             </h1>
         </header>
-        
+
         <p>This was my second paragraph!</p>
-        
-        <section class="links_container">
+
+        <section class="link_container">
             <a href="https://github.com/OferSheffer" title="My Github">
               <img class="nav_icon" src="http://github.com/favicon.ico"
                 alt="github.com">
@@ -50,8 +50,20 @@
                 src="http://web.stanford.edu/favicon.ico"
                 alt="stanford.edu">
             </a>
+            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+               title="CSS-Tricks: A Complete Guide to Flexbox">
+              <img class="nav_icon"
+                src="https://css-tricks.com/favicon.ico"
+                alt="css-tricks.com">
+            </a>
+            <a href="http://flexboxfroggy.com/"
+               title="Flexbox Froggy">
+              <img class="nav_icon"
+                src="http://flexboxfroggy.com/favicon.ico"
+                alt="flexboxfroggy.com">
+            </a>
         </section>
-        
+
         <section>
         <h3>Links</h3>
         <nav>
@@ -87,35 +99,47 @@
                     </ul>
                 </div>
             </li>
+            <li>
+                <div class="list_item">
+                    <img class="list_icon" src="https://css-tricks.com/favicon.ico" alt="css-tricks.com">
+                    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" title="CSS-Tricks: A Completed Guide to Flexbox">CSS-Tricks: A Completed Guide to Flexbox</a>
+                </div>
+            </li>
+            <li>
+                <div class="list_item">
+                    <img class="list_icon" src="http://flexboxfroggy.com//favicon.ico" alt="flexboxfroggy.com">
+                    <a href="http://flexboxfroggy.com/" title="Flexbox Froggy">Flexbox Froggy</a>
+                </div>
+            </li>
             </ul>
         </nav>
         </section>
-        <section>
-        <div style="max-width:400px;" align="middle">
         
-        <iframe style="margin:0.3em auto;" src="https://drive.google.com/file/d/0B_lE8VTBhIM6VWtzTXpjbVVHaHc/preview" width="320" height="180" allowfullscreen>Embedded Lab 3. Draw into LCD and use shift features.</iframe><br>
-        Embedded Lab 3: Draw to LCD and shift DDRAM.
-        </div>
+        <section class="vid_container">
+            <div style="max-width:400px;" align="middle">
+            <iframe style="margin:0.3em auto;" src="https://drive.google.com/file/d/0B_lE8VTBhIM6VWtzTXpjbVVHaHc/preview" width="320" height="180" allowfullscreen>Embedded Lab 3. Draw into LCD and use shift features.</iframe><br>
+            Embedded Lab 3: Draw to LCD and shift DDRAM.
+            </div>
         </section>
-        
+
         <br><hr>
         <div class="myform">
             <form action="" target=" _blank" method="get">
                 What is your name?<br>
                 <input type="text" name="username" placeholder="Name" maxlength="15" autocomplete>
                 <input type="submit" value="Submit">
-            </form> 
+            </form>
         </div>
-        
+
         <section>
         <p>Count numbers: <output id="result"></output></p>
-        <button onclick="startWorker()">Start Worker</button> 
+        <button onclick="startWorker()">Start Worker</button>
         <button onclick="stopWorker()">Stop Worker</button>
         </section>
-        
+
         <footer>
             <address>&copy; Written by OS.<br></address>
         </footer>
-    
+
     </body>
 </html>
