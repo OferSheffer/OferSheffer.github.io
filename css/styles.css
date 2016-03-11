@@ -1,0 +1,49 @@
+body    {background-color:#F6F6F6; font-size: 62.5%}
+h1      {color:darkblue; font-size: 2.6em;}
+h3      {color:darkblue; font-size: 1.6em; margin: 0;}
+
+header {
+
+}
+footer,section,article {
+    font-size: 1.6em; border:1px solid grey;
+    margin:0.3em;margin-bottom:0.8em;padding:0.8em;background-color:white;
+}
+footer {
+    color:white;background-color:#444;margin-bottom: 10px auto;
+}
+section {
+    background-color:#ddd;
+}
+nav ul  {
+    margin:0;padding:0.5em;
+}
+nav ul li {
+    margin:0.3em;
+}
+
+
+.list_icon {
+    width:1em;
+    height:1em;
+    padding:0 0.5em 0 0;
+}
+
+.links_container {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+li.link_item a {
+    display: block;
+    width: 60px;
+}
+.siteicon {
+    display: flex;
+    width:2em;
+    height:2em;
+}
+
+div.myform {
+    padding: 2em;
+}
