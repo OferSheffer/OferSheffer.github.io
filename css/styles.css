@@ -1,3 +1,10 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
 body    {background-color:#F6F6F6; font-size: 62.5%}
 h1      {color:darkblue; font-size: 2.6em;}
 h3      {color:darkblue; font-size: 1.6em; margin: 0;}
@@ -20,14 +27,13 @@ nav ul  {
     margin:0;padding:0.5em;
 }
 nav ul li {
-    margin:0.3em;
+    margin: 0.3em 0 0.3em 0.8em;
 }
 
 
 .list_icon {
-    width:1em;
-    height:1em;
-    padding:0 0.5em 0 0;
+    width:1.2em;
+    height:1.2em;
 }
 
 .nav_icon {
@@ -40,9 +46,8 @@ nav ul li {
     text-decoration: none;
 }
 
-li.link_item a {
-    display: block;
-    width: 60px;
+.list_item>a {
+    padding-left: 0.5em;
 }
 
 ul.sublist li { display: inline; }
