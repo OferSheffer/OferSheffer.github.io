@@ -29,15 +29,27 @@ nav ul li {
     padding:0 0.5em 0 0;
 }
 
+.nav_icon {
+    width:2em;
+    height:2em;
+}
+
 .links_container {
     margin: 0.5em;
     padding: 0.5em;
+}
+.links_container a {
+    text-decoration: none;
 }
 
 li.link_item a {
     display: block;
     width: 60px;
 }
+
+ul.sublist li { display: inline; }
+
+
 .siteicon {
     display: flex;
     width:2em;
