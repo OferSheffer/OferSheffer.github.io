@@ -72,6 +72,11 @@ nav ul li {
     width:2em;
     height:2em;
 }
+.nav_icon:hover {
+    transition: 0.1s linear;
+    opacity: 0.6;
+
+}
 .list_item>a {
     padding-left: 0.5em;
 }
