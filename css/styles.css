@@ -89,7 +89,6 @@ div.myform {
     display: flex; /* or inline-flex */
     flex-flow: row wrap; /* direction & wrap */
     justify-content: center;
-
 }
 .link_container a {
     text-decoration: none;
