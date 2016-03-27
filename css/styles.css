@@ -68,6 +68,7 @@ nav ul li {
 .list_icon {
     width:1.2em;
     height:1.2em;
+    transition: 0.5s linear;
 }
 .list_icon:hover {
     width:1.4em;
