@@ -5,7 +5,7 @@
 }
 
 
-body    {background-color:#F6F6F6; font-size: 62.5%}
+body    {/*background-color:#F6F6F6;*/font-size: 62.5%; max-width: 1170px; margin: 0 auto; }
 h1      {color:darkblue; font-size: 2.6em;}
 h3      {color:darkblue; font-size: 1.6em; margin: 0;}
 p       {margin:0.3em auto;}
@@ -73,6 +73,7 @@ nav ul li {
 .list_icon:hover {
     width:1.4em;
     height:1.4em;
+/*    transform: rotate(180deg);*/
     transition: 0.5s linear;
 }
 .nav_icon {
@@ -118,3 +119,8 @@ div.myform {
 }
 
 
+
+html {
+    background: url("/images/pretty-backgrounds6806129.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
