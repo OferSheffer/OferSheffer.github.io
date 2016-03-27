@@ -30,6 +30,7 @@ footer {
 }
 section {
     background-color:#ddd;
+    box-shadow: 3px 5px 5px -2px;
 }
 nav ul  {
     margin:0;padding:0.5em;
@@ -68,6 +69,11 @@ nav ul li {
     width:1.2em;
     height:1.2em;
 }
+.list_icon:hover {
+    width:1.4em;
+    height:1.4em;
+    transition: 0.5s linear;
+}
 .nav_icon {
     width:2em;
     height:2em;
@@ -75,6 +81,7 @@ nav ul li {
 .nav_icon:hover {
     transition: 0.1s linear;
     opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
 
 }
 .list_item>a {
